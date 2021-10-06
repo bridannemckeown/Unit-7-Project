@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #7477bf;
+  color: white;
+  max-height: 30vh;
+}
+
+nav {
+  max-width: 100px;
+  max-height: 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */
