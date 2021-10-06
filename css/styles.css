@@ -1,16 +1,27 @@
 * {
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
   background-color: #7477bf;
   color: white;
   max-height: 30vh;
+  display: flex;
 }
 
 nav {
   max-width: 100px;
   max-height: 20px;
+}
+
+.bell {
+  height: 100px;
+  fill: white;
+}
+
+img {
+  fill: white;
 }
 
 /*# sourceMappingURL=styles.css.map */
