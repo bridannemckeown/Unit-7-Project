@@ -1,13 +1,27 @@
 * {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  margin: 0 auto;
 }
 
 header {
   background-color: #7477bf;
   color: white;
-  max-height: 30vh;
+  width: 320px;
+  max-height: 15vh;
   display: flex;
+}
+
+header h1,
+header img,
+header h3,
+header svg {
+  flex: 1 25%;
+}
+
+header img {
+  border-radius: 50%;
+  height: 15px;
 }
 
 nav {
@@ -17,10 +31,6 @@ nav {
 
 .bell {
   height: 100px;
-  fill: white;
-}
-
-img {
   fill: white;
 }
 
