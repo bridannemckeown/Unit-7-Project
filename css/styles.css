@@ -7,21 +7,38 @@
 header {
   background-color: #7477bf;
   color: white;
-  width: 320px;
-  max-height: 15vh;
+  height: 8vh;
   display: flex;
 }
 
-header h1,
-header img,
-header h3,
-header svg {
-  flex: 1 25%;
+header * {
+  margin: auto;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 1.3em;
+  font-weight: 100;
+}
+
+header h3 {
+  font-size: 0.9em;
+  font-weight: 100;
+  margin-left: 0px;
+  margin-right: 5px;
 }
 
 header img {
   border-radius: 50%;
-  height: 15px;
+  padding: 10px;
+  margin: 2px;
+}
+
+hr {
+  height: 60%;
+  width: 1px;
+  background-color: #999999;
+  border: none;
 }
 
 nav {
@@ -30,7 +47,7 @@ nav {
 }
 
 .bell {
-  height: 100px;
+  height: 25px;
   fill: white;
 }
 
