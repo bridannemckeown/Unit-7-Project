@@ -11,6 +11,15 @@ header {
   display: flex;
 }
 
+.header-items {
+  display: flex;
+  height: 8vh;
+  margin: auto;
+  flex: 1 70%;
+  padding: 10px;
+  justify-content: space-around;
+}
+
 header * {
   margin: auto;
   align-items: center;
@@ -19,6 +28,8 @@ header * {
 header h1 {
   font-size: 1.3em;
   font-weight: 100;
+  flex: 1 50%;
+  padding: 20px;
 }
 
 header h3 {
@@ -29,8 +40,9 @@ header h3 {
 }
 
 header img {
-  padding: 10px;
-  margin: 2px;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 1px;
 }
 
 hr {
@@ -58,6 +70,11 @@ a {
   color: white;
 }
 
+.main-nav {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
 a img {
   height: 35px;
   width: 35px;
@@ -65,12 +82,27 @@ a img {
   filter: invert(1);
 }
 
-.headline {
-  font-weight: 400;
-}
-
 .member-img {
   border-radius: 50%;
+}
+
+.headline {
+  font-weight: 400;
+  padding: 10px;
+}
+
+main h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.traffic-nav {
+  display: flex;
+  padding-inline-start: 0;
+  font-weight: 300;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */
