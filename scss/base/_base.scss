@@ -63,5 +63,9 @@ a img {
     height: 35px;
     width: 35px;
     margin: 10px;
+    filter: invert(1);
 }
 
+.headline {
+    font-weight: 400;
+}

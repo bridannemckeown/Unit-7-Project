@@ -38,7 +38,28 @@
         </a>
     </nav>
     <main>
+        <div class="main-header">
+            <h2 class="headline">Dashboard</h2>
+        </div>
+        <!-- alert banner -->
+        <div id=alert class="alert">
 
+        </div>
+        <section class="traffic">
+            <div class="traffic-header">
+                <h3>Traffic</h3>
+                <ul class="traffic-nav">
+                    <l1 class="traffic-nav-link">Hourly</l1>
+                    <l1 class="traffic-nav-link">Daily</l1>
+                    <l1 class="traffic-nav-link active">Weekly</l1>
+                    <l1 class="traffic-nav-link">Monthly</l1>
+                </ul>
+            </div>
+            <div class="widget-container-full">
+                <!-- element line graph will attach to-->
+                <canvas id="traffic-chart"></canvas>
+            </div>
+        </section>
     </main>
 </body>
 </html>
