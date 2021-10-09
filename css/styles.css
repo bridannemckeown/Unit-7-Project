@@ -29,7 +29,6 @@ header h3 {
 }
 
 header img {
-  border-radius: 50%;
   padding: 10px;
   margin: 2px;
 }
@@ -68,6 +67,10 @@ a img {
 
 .headline {
   font-weight: 400;
+}
+
+.member-img {
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=styles.css.map */
