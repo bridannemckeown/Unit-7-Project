@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    // margin: 0 auto;
 }
 
 header {
@@ -85,13 +84,13 @@ a img {
     border-radius: 50%;
 }
 
-// .placeholder-chart {
-//     width: 300px;
-// }
-
-.widget-container-full {
-    width: 100vw;
+.placeholder-chart {
+    max-width: 200px;
 }
+
+// .widget-container-full {
+//     width: 100vw;
+// }
 
 .grid-container {
     display: grid;

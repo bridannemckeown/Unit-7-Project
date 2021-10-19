@@ -83,8 +83,8 @@ a img {
   border-radius: 50%;
 }
 
-.widget-container-full {
-  width: 100vw;
+.placeholder-chart {
+  max-width: 200px;
 }
 
 .grid-container {
